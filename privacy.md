@@ -1,6 +1,6 @@
 ## Privacy Policy for Stack Decoded
 
-**Last updated: 26 September 2026**
+**Last updated: 8 October 2026**
 
 Stack Decoded ("we", "the channel") publishes educational videos on YouTube, Instagram and
 Facebook. This policy explains what our own software does with data.
@@ -29,9 +29,13 @@ it to upload and manage content on those accounts, and nothing else.
 
 Specifically:
 
-- It uploads video files, titles, descriptions, tags and thumbnails to our own channel.
-- It reads back the resulting video identifiers and public statistics for our own videos.
-- It does **not** read, collect or store any information about viewers, subscribers or any
+- On YouTube it uploads video files, titles, descriptions, tags and thumbnails to our own
+  channel, using only the YouTube `youtube.upload` permission (`videos.insert` and
+  `thumbnails.set`). It keeps the identifiers of the videos it uploaded, so it never uploads one
+  twice, and it reads nothing else from YouTube.
+- On Instagram and Facebook it publishes our own posts, and reads the numbers and comments of
+  our own account and Page, which any account owner can see in their own dashboard.
+- It does **not** collect or store any information about viewers, subscribers or any
   other person's account.
 - It does **not** request access to anyone else's Google, Instagram or Facebook account, and
   nobody else signs in to it.
@@ -43,6 +47,13 @@ shared, never sent anywhere except to Google's and Meta's own servers when publi
 never included in the published source code. They can be revoked at any time from the Google
 Account permissions page or the Meta account settings, which immediately stops the software
 from publishing anything.
+
+### YouTube API Services
+
+Our software uses YouTube API Services. By using our videos or our channel you agree to be
+bound by the YouTube Terms of Service (https://www.youtube.com/t/terms). Google's privacy
+policy is at https://policies.google.com/privacy. You can revoke our software's access to the
+channel at any time at https://myaccount.google.com/permissions.
 
 ### Data retention
 
@@ -60,5 +71,5 @@ If this policy changes, the updated version will appear at this address with a n
 
 ### Contact
 
-Questions about this policy: through the channel's About page on YouTube,
-https://youtube.com/@StackDecodedTV
+Questions about this policy: sr48840@gmail.com, or through the channel's About page on
+YouTube, https://youtube.com/@StackDecodedTV
